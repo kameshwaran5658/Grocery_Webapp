@@ -1,31 +1,76 @@
-"# Grocery_Webapp" 
+🛒 MERN Grocery Shop Project
 
+Welcome to the MERN Grocery Shop Project! This project is built using the MERN (MongoDB, Express, React, Node.js) stack and incorporates various features like user authentication, product listings, reviews, and more.
+📋 Features
 
-# Client
+    🚀 Login/Sign Up: Users can create accounts or log in to existing ones.
+    🔐 Forgot Password: Forgot your password? No problem! Users can reset their passwords via email.
+    🔒 Update Password: Users can change their passwords for added security.
+    📝 Customer Reviews: Customers can leave reviews for products.
+    ✏ Update Reviews: Customers can edit or delete their reviews.
+    📦 Product Lists: Browse and view product listings.
+    🔍 Filter Products: Filter products by category, price, or other attributes.
+    🔎 Search Products: Search for specific products by name or keywords.
+    🛒 Cart Items: Add products to the cart for purchase.
+    🛍 Order Summary: Review and confirm orders before checkout.
+    📄 Order Details: View order history and details.
+    👨‍💼 Admin Functionality: Special features for administrators to manage products and users.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Installation
 
-## Development server
+Clone the repository:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+git clone(https://github.com/lokeshMopuri83/grocery_store_using_MERN_STACK.git)
 
-## Code scaffolding
+Change into the project directory:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+cd grocery-shop
 
-## Build
+Install backend dependencies:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install
 
-## Running unit tests
+Install frontend dependencies:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+cd frontend
+npm install
 
-## Running end-to-end tests
+Configuration
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Create a .env file in the root directory with the following environment variables:
 
-## Further help
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET_KEY = jwt_secret_key
+JWT_RESET_PASSWORD_SECRET_KEY = jwt_reset_password_secret_key
+COOKIE_EXPIRE = 5
+SMPT_MAIL = smpt_mail
+SMPT_PASSWORD = smpt_password
+CLOUD_NAME = your_cloudinary_cloud_name
+CLOUD_API_KEY =  your_cloudinary_api_key
+CLOUD_API_SECRET_KEY =  your_cloudinary_api_secret
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-   
+Usage
+
+Start the backend:
+
+npm run dev
+
+Start the frontend:
+
+cd frontend
+npm start
+
+    Access the application in your web browser at http://localhost:3000.
+
+Technologies
+
+    📦 MongoDB: A NoSQL database for storing data.
+    ⚙ Express.js: A web application framework for Node.js.
+    ⚛ React: A JavaScript library for building user interfaces.
+    🚀 Node.js: A JavaScript runtime for server-side development.
+    🔑 JWT: JSON Web Tokens for user authentication.
+    🔒 bcrypt: A library for hashing user passwords.
+    💌 Nodemailer: A library for sending email.
+    ☁ Cloudinary: A cloud-based image and video management service.
+
+Happy coding! 👩‍💻👨‍💻
