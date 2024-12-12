@@ -18,9 +18,6 @@ Welcome to the MERN Grocery Shop Project! This project is built using the MERN (
 
 Installation
 
-Clone the repository:
-
-git clone(https://github.com/lokeshMopuri83/grocery_store_using_MERN_STACK.git)
 
 Change into the project directory:
 
